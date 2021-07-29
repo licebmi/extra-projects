@@ -44,3 +44,4 @@ At this level, some other information can be gathered with threat detection or a
 ### Implementation
 Given the specifics of this deployment, although the amount of work might be lengthy, any monitoring technology should be able to address this needs. To be able to obtain more insight of the data, a stack based on a modern monitoring system like prometheus is suggested, but previous generation monitoring systems like Zabbix or Nagios should be fine if the team is more familiar with those tools.
 
+Extra monitoring systems for other parts of related infrastructure, as network appliances or a backup system might be required, but are outside of the scope of this document.
