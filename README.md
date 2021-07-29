@@ -75,3 +75,14 @@ Just executing the script will return a randomized range of numbers from 1 to 10
 #10
 #2
 ```
+
+## Testing
+Basic testing is acomplished with BATS. A basic Makefile servers as a helper.
+
+``` sh
+nix-shell --run "make test"
+
+# Or if dependencies where manually installed
+make test
+```
+
